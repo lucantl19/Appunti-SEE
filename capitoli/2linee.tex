@@ -249,7 +249,7 @@ I sostegni in vetroresina presentano proprietà fisiche e meccaniche (elevato ra
     \item Elevata sicurezza intrinseca rispetto ai pericoli di incendio.
 \end{itemize}
 
-\section{Linee in Cavo}
+\section{Linee in cavo}
 Le linee in cavo vengono impiegate per la trasmissione e la distribuzione dell'energia elettrica in posa sotterranea (ambiti urbani ad alta densità o attraversamenti protetti), sottomarina (collegamenti interinsulari e transfrontalieri) e in taluni casi in posa aerea (tramite cavi cordati ad elica autoportanti).
 
 Un impianto di linea in cavo è costituito da due elementi impiantistici:
@@ -337,6 +337,8 @@ Nei cavi in carta impregnata la distribuzione dei campi elettromagnetici dà luo
         \item Sollecitazione da campo magnetico $\rightarrow$ la corrente alternata che fluisce nel singolo conduttore genera un campo magnetico concatenato variabile che induce correnti parassite dissipative nella guaina metallica di piombo e nell'armatura di acciaio. Per limitare tali correnti e le relative perdite, attorno all'anima vengono disposti due nastri di acciaio avvolti in verso opposto, generando campi magnetici indotti in opposizione di fase che si compensano.
         \item Comportamento complessivo $\rightarrow$ il cavo unipolare possiede un ottimo comportamento nei riguardi del campo elettrostatico, ma un comportamento sfavorevole nei riguardi del campo magnetico; trova applicazioni crescenti all'aumentare della tensione di esercizio.
     \end{itemize}
+    
+    \newpage
     \item \textbf{Cavo tripolare a cintura (campo non radiale)}:
     \begin{itemize}
         \item Sollecitazione da campo elettrico $\rightarrow$ nelle tre anime fluiscono tensioni sinusoidali sfasate di $120^\circ$. Viene meno la simmetria cilindrica e le linee del campo elettrico interagiscono reciprocamente incurvandosi. Sul dielettrico agiscono componenti del campo elettrico sia normali che tangenziali rispetto agli strati di carta. La carta presenta una modesta rigidità dielettrica lungo la direzione tangenziale di scorrimento tra i nastri; la presenza di tali componenti tangenziali limita la tensione di esercizio di questa configurazione a valori di $20 \div 30\text{ kV}$.
@@ -351,11 +353,13 @@ Nei cavi in carta impregnata la distribuzione dei campi elettromagnetici dà luo
         \item Le tre anime si comportano elettrostaticamente come tre cavi unipolari indipendenti esenti da componenti tangenziali del campo, preservando al contempo il vantaggio magnetico di somma nulla delle correnti.
     \end{itemize}
 \end{itemize}
-
-% [INSERIRE FIGURA: Mappatura del campo elettrico e delle superfici equipotenziali: a sinistra sezione di cavo unipolare con conduttore centrale a carica +q, schermo a carica -q, linee di forza del campo elettrico puramente radiali e superfici equipotenziali circolari concentriche; a destra sezione di cavo tripolare a cintura a campo non radiale per tensioni di 20-30 kV con tre conduttori interni e andamento incurvato delle linee di forza e delle equipotenziali con marcate componenti tangenziali sulla carta]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{immagini/linee16}
+\end{figure}
 
 \subsection{Cavi ad Olio Fluido}
-Nelle applicazioni ad altissima tensione (fino a $400\text{ kV}$), per evitare la formazione di micro-cavità gassose (vacuoli) che innescherebbero scariche parziali durante le dilatazioni termiche dell'olio, si adottano i cavi ad olio fluido:
+Nelle applicazioni ad altissima tensione (fino a $400\text{ kV}$) si adottano i cavi ad olio fluido:
 \begin{itemize}
     \item \textbf{Cavo tripolare ad olio fluido a pressione esterna ($15\text{ bar}$)}:
     \begin{itemize}
@@ -364,6 +368,11 @@ Nelle applicazioni ad altissima tensione (fino a $400\text{ kV}$), per evitare l
         \item \textbf{FG} $\rightarrow$ fili di scorrimento metallici disposti a spirale esternamente a ciascuna anima per facilitare le operazioni di traino e infilaggio nel condotto.
         \item \textbf{T} $\rightarrow$ tubo di acciaio rigido continuo entro cui sono alloggiate le tre anime, riempito di olio dielettrico mantenuto alla pressione costante di $15\text{ bar}$.
     \end{itemize}
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.35\linewidth]{immagini/linee17}
+    \end{figure}
+    
     \item \textbf{Cavo ad olio fluido a pressione interna}:
     \begin{itemize}
         \item \textbf{A} $\rightarrow$ spirale interna in acciaio di supporto meccanico.
@@ -376,8 +385,11 @@ Nelle applicazioni ad altissima tensione (fino a $400\text{ kV}$), per evitare l
         \item \textbf{GP} $\rightarrow$ guaina protettiva esterna anticorrosiva.
     \end{itemize}
 \end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\linewidth]{immagini/linee18}
+\end{figure}
 
-% [INSERIRE FIGURA: Schemi costruttivi dei cavi ad olio fluido per tensioni fino a 400 kV: vista in sezione di cavo tripolare ad olio fluido a pressione esterna di 15 bar con tre anime in rame A isolate con Is e provviste di fili di scorrimento FG alloggiate in tubo di acciaio T; affiancata dalla vista in spaccato assiale di cavo ad olio fluido a pressione interna con spirale in acciaio A, canale centrale di espansione Ca, conduttore tubolare di rame C, strati di carta semiconduttrice SC, isolante Is, guaina di piombo G, nastratura in acciaio F e guaina protettiva esterna GP]
 
 \subsection{Cavi in Isolante Estruso}
 Nei moderni impianti di distribuzione e trasmissione si impiegano in prevalenza cavi con dielettrico polimerico estruso, la cui struttura varia in funzione della classe di tensione:
@@ -406,113 +418,26 @@ Nei moderni impianti di distribuzione e trasmissione si impiegano in prevalenza 
         \item Guaina protettiva esterna in PVC.
     \end{itemize}
 \end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{immagini/linee19}
+\end{figure}
 
-% [INSERIRE FIGURA: Spaccato assiale tridimensionale comparativo dei cavi in isolante estruso nelle tre classi di tensione: cavo BT con corda rigida di rame stagnato, isolante in gomma butilica e guaina in PVC; cavo MT con corda rigida di rame stagnato, nastro semiconduttore interno, isolante in gomma etilenpropilenica EPR, schermo a nastro di rame e guaina in PVC; cavo AT con corda compatta di rame stagnato, strato semiconduttore interno, isolante in gomma etilenpropilenica EPR, nastro semiconduttore esterno, schermatura a calza a treccia di fili di rame intrecciati e guaina in PVC]
 
+\newpage
 \section{Designazione Normativa dei Cavi}
 L'identificazione univoca delle caratteristiche costruttive e dielettriche dei cavi di bassa e media tensione è disciplinata dalle tabelle di unificazione normativa.
 
 \subsection{Designazione secondo CEI-UNEL 35011}
-La norma CEI-UNEL 35011 adotta una sigla alfanumerica sequenziale che individua i singoli componenti costitutivi del cavo procedendo dal conduttore interno verso la guaina esterna:
-\begin{itemize}
-    \item \textbf{Natura e Forma del Conduttore}:
-    \begin{itemize}
-        \item \textbf{A} $\rightarrow$ alluminio (per il conduttore in rame non si adotta alcuna sigla).
-        \item \textbf{U} $\rightarrow$ conduttore a filo unico massiccio.
-        \item \textbf{R} $\rightarrow$ conduttore a corda rigida.
-        \item \textbf{F} $\rightarrow$ conduttore a corda flessibile.
-        \item \textbf{S} $\rightarrow$ conduttore a profilo settoriale.
-    \end{itemize}
-    \item \textbf{Materiale Isolante}:
-    \begin{itemize}
-        \item \textbf{G1} $\rightarrow$ gomma sintetica.
-        \item \textbf{G5} $\rightarrow$ gomma etilenpropilenica (EPR).
-        \item \textbf{G7} $\rightarrow$ gomma EPR ad alto modulo.
-        \item \textbf{G9} $\rightarrow$ elastomero reticolato speciale.
-        \item \textbf{G10} $\rightarrow$ elastomero reticolato speciale.
-        \item \textbf{R} $\rightarrow$ polivinilcloruro (PVC).
-        \item \textbf{R2} $\rightarrow$ PVC di qualità superiore.
-        \item \textbf{E4} $\rightarrow$ polietilene reticolato speciale.
-    \end{itemize}
-    \item \textbf{Forma dei Cavi}:
-    \begin{itemize}
-        \item \textbf{O} $\rightarrow$ anime riunite per cavo rotondo.
-        \item \textbf{D} $\rightarrow$ anime parallele per cavo piatto.
-    \end{itemize}
-    \item \textbf{Schermatura e Armatura}:
-    \begin{itemize}
-        \item \textbf{C} $\rightarrow$ conduttore concentrico di rame.
-        \item \textbf{H} $\rightarrow$ schermo elettrostatico di alluminio.
-        \item \textbf{H1} $\rightarrow$ schermatura a fili o nastri.
-        \item \textbf{H2} $\rightarrow$ schermatura a treccia di fili di rame.
-        \item \textbf{F} $\rightarrow$ armatura metallica a fili.
-        \item \textbf{Z} $\rightarrow$ armatura a piattine.
-        \item \textbf{N} $\rightarrow$ armatura a nastri.
-        \item \textbf{A} $\rightarrow$ armatura a fili di acciaio.
-    \end{itemize}
-    \item \textbf{Guaina Esterna}:
-    \begin{itemize}
-        \item \textbf{R} $\rightarrow$ polivinilcloruro (PVC).
-        \item \textbf{K} $\rightarrow$ policloroprene.
-        \item \textbf{M1} $\rightarrow$ mescola termoplastica speciale.
-    \end{itemize}
-\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{immagini/linee20}
+\end{figure}
+
 
 \subsection{Designazione Armonizzata secondo CEI 20-27}
 La norma CEI 20-27 recepisce la codifica unificata europea CENELEC per i cavi isolati di bassa tensione, articolata secondo la seguente sequenza di simboli:
-\begin{itemize}
-    \item \textbf{Riferimento alle Norme}:
-    \begin{itemize}
-        \item \textbf{H} $\rightarrow$ cavo armonizzato con marchio di conformità $\langle\text{HAR}\rangle$.
-        \item \textbf{A} $\rightarrow$ tipo autorizzato.
-        \item \textbf{N} $\rightarrow$ tipo nazionale riconosciuto.
-    \end{itemize}
-    \item \textbf{Tensione Nominale ($U_0/U$)}:
-    \begin{itemize}
-        \item \textbf{03} $\rightarrow$ tensione nominale $U_0/U = 300/300\text{ V}$.
-        \item \textbf{05} $\rightarrow$ tensione nominale $U_0/U = 300/500\text{ V}$.
-        \item \textbf{07} $\rightarrow$ tensione nominale $U_0/U = 450/750\text{ V}$.
-        \item \textbf{1} $\rightarrow$ tensione nominale $U_0/U = 0{,}6/1\text{ kV}$.
-    \end{itemize}
-    \item \textbf{Materiale Isolante}:
-    \begin{itemize}
-        \item \textbf{V} $\rightarrow$ polivinilcloruro (PVC).
-        \item \textbf{R} $\rightarrow$ gomma sintetica.
-        \item \textbf{G9} $\rightarrow$ elastomero reticolato speciale.
-    \end{itemize}
-    \item \textbf{Schermatura e Armatura}:
-    \begin{itemize}
-        \item \textbf{C} $\rightarrow$ conduttore concentrico di rame.
-        \item \textbf{A7} $\rightarrow$ schermo elettrostatico di alluminio.
-        \item \textbf{C7} $\rightarrow$ schermatura a fili o nastri.
-        \item \textbf{C4} $\rightarrow$ schermatura a treccia di fili di rame.
-        \item \textbf{Z2} $\rightarrow$ armatura a fili.
-        \item \textbf{Z3} $\rightarrow$ armatura a piattine.
-        \item \textbf{Z4} $\rightarrow$ armatura a nastri.
-        \item \textbf{Z5} $\rightarrow$ armatura a fili di acciaio.
-    \end{itemize}
-    \item \textbf{Guaina Esterna}:
-    \begin{itemize}
-        \item \textbf{N} $\rightarrow$ policloroprene.
-        \item \textbf{V} $\rightarrow$ polivinilcloruro (PVC).
-    \end{itemize}
-    \item \textbf{Forma e Flessibilità del Conduttore}:
-    \begin{itemize}
-        \item \textbf{-U} $\rightarrow$ conduttore a filo unico massiccio.
-        \item \textbf{-R} $\rightarrow$ conduttore a corda rigida.
-        \item \textbf{-K} $\rightarrow$ conduttore a corda flessibile per posa fissa.
-        \item \textbf{-F} $\rightarrow$ conduttore a corda flessibile per servizio mobile.
-    \end{itemize}
-\end{itemize}
-
-Un esempio tipico di applicazione della designazione CEI 20-27 è rappresentato dalla sigla \textbf{H 07 V V - K 3 G 1,5}:
-\begin{itemize}
-    \item \textbf{H} $\rightarrow$ cavo armonizzato conforme agli standard CENELEC con attestato $\langle\text{HAR}\rangle$.
-    \item \textbf{07} $\rightarrow$ tensione nominale di isolamento $U_0/U = 450/750\text{ V}$.
-    \item \textbf{V} $\rightarrow$ isolamento delle anime in policloruro di vinile (PVC).
-    \item \textbf{V} $\rightarrow$ guaina protettiva esterna in policloruro di vinile (PVC).
-    \item \textbf{-K} $\rightarrow$ conduttore in corda flessibile in rame destinato a posa fissa.
-    \item \textbf{3G 1,5} $\rightarrow$ cavo formato da $3$ conduttori aventi ciascuno sezione nominale di $1{,}5\text{ mm}^2$, con lettera \textbf{G} che indica la presenza del conduttore di terra (protezione) bicolore giallo-verde.
-\end{itemize}
-
-% [INSERIRE FIGURA: Schema esplicativo della sigla di designazione CEI 20-27 applicata al cavo multipolare H 07 V V - K 3 G 1,5, con indicazione analitica delle frecce riferite al tipo armonizzato CENELEC H, alla tensione di isolamento 450/750 V 07, all'isolante in PVC V, alla guaina in PVC V, al conduttore a corda flessibile per posa fissa -K, e al fascio di 3 conduttori di cui uno giallo-verde di sezione 1,5 mmq]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{immagini/linee21}
+\end{figure}
